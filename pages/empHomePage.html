@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--favicon-->
+    <link rel="shortcut icon" href="/assets/favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="/css/empHomePage.css">
+    <title>Employee Payroll HomePage</title>
+</head>
+<body>
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="../assets/logo.png" alt="logo">
+            <div>
+                <span class="emp-text">EMPLOYEE</span><br>
+                <span class="emp-text emp-payroll">PAYROLL</span>
+            </div>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="header-content sub-main-content">
+            <div class="emp-details-text">
+                Employee Details
+                <div class="emp-count">10</div>
+            </div>
+            <div onclick="location.href='../pages/empForm.html'" class="add-button">
+                <div class="plus-icon">
+                    <img src="../assets/icons/add-24px.svg" alt="Add user logo">
+                </div>
+                <div style="height: 28px; width: 100px;">Add User</div>
+            </div>
+        </div>
+        <div class="table-main">
+            <table id="display" class="table">
+                <!--UC4-->
+            </table>
+        </div>
+    </div>
+    <script src="../js/empHomePage.js"></script>
+    <script src="../js/empForm.js"></script>
+    <script src="../js/empPayrollData.js"></script>
+    <script src="../js/site_properties.js"></script>
+    <script src="../js/utility.js"></script>
+</body>
+</html>
